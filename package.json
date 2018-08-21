@@ -1,0 +1,28 @@
+{
+  "name": "mongo_app",
+  "version": "1.0.0",
+  "description": "mongo and cheerio building news comment site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCPolichette/mongo_app.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "node",
+    "cheerio",
+    "web",
+    "scraping"
+  ],
+  "author": "MarkPolichette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MCPolichette/mongo_app/issues"
+  },
+  "homepage": "https://github.com/MCPolichette/mongo_app#readme"
+}
