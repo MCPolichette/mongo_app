@@ -10,17 +10,17 @@ In this assignment, you'll create a web app that lets users view and leave comme
 
 2. Run `npm init`. When that's finished, install and save these npm packages:
 
-3. express
+<!-- 3. express -->
+<!--
+4. express-handlebars -->
 
-4. express-handlebars
+<!-- 5. mongoose -->
 
-5. mongoose
-
-6. body-parser
-
+<!-- 6. body-parser -->
+<!--
 7. cheerio
 
-8. request
+8. request -->
 
 9. **NOTE**: If you want to earn complete credit for your work, you must use all six of these packages in your assignment.
 
