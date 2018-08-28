@@ -66,7 +66,7 @@ app.get("/", function(req, res) {
       article: data
     };
     console.log(hbsObject);
-    res.render("home", hbsObject);
+    res.render("index", hbsObject);
   });
 });
 
@@ -87,8 +87,11 @@ app.get("/scrape", function(req, res) {
   request("https://www.sltrib.com/", function(error, response, html) {
     // Then, load that into cheerio and save it to $ for a shorthand selector
     var $ = cheerio.load(html);
-    // Now, grab every "d-flex" within an article tag, and do the following:
-    $("article").each(function(i, element) {
+    // Now, grab every "trib-semi" within an article tag, and do the following:
+    $('<div class ="headline normal-style x-small">').each(function(
+      i,
+      element
+    ) {
       // Save an empty result object
       var result = {};
 
